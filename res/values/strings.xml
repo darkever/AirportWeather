@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airport Weather</string>
+    <string name="current_airport_name">Airport Name</string>
+    <string name="current_temperature">00.0 c</string>
+    <string name="current_clouds">Clouds</string>
+    <string name="current_humidity">00%</string>
+    <string name="curent_airport_code">KEWR</string>
+    <string name="get_weather_label">Get Weather</string>
+    <string name="humidity_label">&quot;Humidity &quot;</string>
+    <string name="default_airportcode">KEWR</string>
+    <string name="json_temperature">temperature</string>
+    <string name="json_weather_observation">weatherObservation</string>
+    <string name="json_clouds">clouds</string>
+    <string name="json_humidity">humidity</string>
+    <string name="json_airport_name">stationName</string>
+    <string name="key_airportcode">key_airportcode</string>
+</resources>

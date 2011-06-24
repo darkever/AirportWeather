@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/AirportName" android:text="@string/current_airport_name" android:textSize="8pt" android:gravity="center_horizontal" android:layout_weight="1"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_below="@+id/AirportName" android:layout_width="match_parent" android:orientation="horizontal" android:layout_weight="1">
+        <TextView android:id="@+id/Temperature" android:textSize="24pt" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="@string/current_temperature" android:layout_width="match_parent"></TextView>
+        <TextView android:text="@string/current_clouds" android:id="@+id/Clouds" android:textSize="12pt" android:layout_height="match_parent" android:gravity="center" android:layout_width="match_parent" android:layout_weight="1.5"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/HumidityLayout" android:layout_height="wrap_content" android:layout_below="@+id/linearLayout1" android:layout_width="match_parent" android:gravity="center">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/HumidityLabel" android:textSize="12pt" android:text="@string/humidity_label"></TextView>
+        <TextView android:text="@string/current_humidity" android:layout_height="wrap_content" android:id="@+id/Humidity" android:gravity="center" android:textSize="12pt" android:layout_width="wrap_content"></TextView>
+    </LinearLayout>
+    <EditText android:layout_height="wrap_content" android:text="@string/curent_airport_code" android:id="@+id/AirportCode" android:layout_width="match_parent" android:layout_weight="1" android:layout_below="@+id/HumidityLayout"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_below="@+id/AirportCode" android:id="@+id/GetWeather" android:text="@string/get_weather_label" android:gravity="center" android:layout_width="match_parent" android:layout_weight="1"></Button>
+
+</RelativeLayout>
